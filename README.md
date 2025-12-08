@@ -69,3 +69,6 @@ Useful for switching between setups quickly or backing up your settings.
 ---
 
 # ⚠️ Use of this software is at your **own risk**.
+By using Torio-Client, you agree that all actions are taken at your **own risk**.
+The developer is **not responsible** for any issues, penalties, or data loss caused by using this software.
+Please use responsibly and understand the risks before running the program.
