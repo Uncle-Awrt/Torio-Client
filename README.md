@@ -5,6 +5,10 @@ A lightweight Ghost Client for **Minecraft Bedrock Edition**
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
 
+## 📢 Discord
+For announcements, support, and feedback, join our official Discord server:
+
+**https://discord.gg/xq8sWQhuXG**
 ---
 
 ## Features
@@ -43,11 +47,6 @@ Useful for switching between setups quickly or backing up your settings.
 
 ## Installation
 (Write your installation instructions here—if you want, I can generate these too.)
-
----
-
-## Support
-If you need help or want to report bugs, feel free to ask.
 
 ---
 This project is **not open source**.
