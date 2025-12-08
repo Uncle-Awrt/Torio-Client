@@ -9,6 +9,7 @@ All features are fully toggleable and optimized for smooth performance.
 For announcements, support, and feedback, join our official Discord server:
 
 **https://discord.gg/xq8sWQhuXG**
+
 ---
 
 ## Features
@@ -18,18 +19,36 @@ For announcements, support, and feedback, join our official Discord server:
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
 
+**Screenshot:**  
+![Visual Modules](visual_modules.png)
+
+---
+
 ### Combat Modules
 - **Reach** – Extends melee attack distance.
 - **AutoClicker (Left & Right)** – Automates left and right clicks for combat and building.
 - **Hitbox** – Expands entity hitboxes for easier targeting.
+
+**Screenshot:**  
+![Combat Modules](combat_modules.png)
+
+---
 
 ### Movement Modules
 - **ToggleSprint** – Sprint without holding the sprint key.
 - **Speed** – Increases player movement speed.
 - **AntiKnockback** – Reduces or prevents knockback from attacks.
 
+**Screenshot:**  
+![Movement Modules](movement_modules.png)
+
+---
+
 ### Misc Modules
 - **Stream Protect** – Hides sensitive or personal information while streaming.
+
+**Screenshot:**  
+![Misc Modules](misc_modules.png)
 
 ---
 
@@ -39,11 +58,15 @@ For announcements, support, and feedback, join our official Discord server:
 Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.  
 (Some modules do not support keybinds.)
 
+**Screenshot:**  
+![Keybinds](keybinds.png)
+
+---
+
 ### **Config System**
 Save, load, and manage your personalized configurations.  
 Useful for switching between setups quickly or backing up your settings.
 
 ---
 
-# Use of this software is at your **own risk**.  
-
+# ⚠️ Use of this software is at your **own risk**.
