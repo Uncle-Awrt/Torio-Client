@@ -49,10 +49,6 @@ Useful for switching between setups quickly or backing up your settings.
 (Write your installation instructions here—if you want, I can generate these too.)
 
 ---
-This project is **not open source**.
 
-All rights reserved.  
-Use of this software is at your **own risk**.  
-You may not copy, modify, distribute, or reverse-engineer the software without explicit permission.
-Copyright © Uncle Awrt
+# Use of this software is at your **own risk**.  
 
