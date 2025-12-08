@@ -47,6 +47,10 @@ For announcements, support, and feedback, join our official Discord server:
 ![Misc Modules Screenshot](./images/misc_modules.png)
 ---
 
+### Player Modules (Coming Soon)
+
+---
+
 ## Customization
 
 ### **Keybind Customization**
