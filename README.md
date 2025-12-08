@@ -45,6 +45,7 @@ For announcements, support, and feedback, join our official Discord server:
 - **Stream Protect** – Hides sensitive or personal information while streaming.
 
 ![Misc Modules Screenshot](./images/misc_modules.png)
+
 ---
 
 ### Player Modules (Coming Soon)
