@@ -32,7 +32,8 @@ All features are fully toggleable and optimized for smooth performance.
 ## Customization
 
 ### **Keybind Customization**
-Every module supports customizable keybinds, allowing you to assign controls that fit your playstyle.
+Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.  
+(Some modules do not support keybinds.)
 
 ### **Config System**
 Save, load, and manage your personalized configurations.  
