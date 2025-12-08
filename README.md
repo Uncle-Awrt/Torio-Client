@@ -45,10 +45,5 @@ Useful for switching between setups quickly or backing up your settings.
 
 ---
 
-## Installation
-(Write your installation instructions here—if you want, I can generate these too.)
-
----
-
 # Use of this software is at your **own risk**.  
 
