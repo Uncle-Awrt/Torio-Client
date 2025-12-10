@@ -1,6 +1,6 @@
 # Torio-Client
 A lightweight Ghost Client for **Minecraft Bedrock Edition**  
-**Stable Version: 1.21.124**
+**Stable Version: 1.21.120 ～ 1.21.124**
 
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
