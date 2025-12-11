@@ -2,7 +2,7 @@
 A lightweight Ghost Client for **Minecraft Bedrock Edition**  
 **Stable Version: 1.21.120 ～ 1.21.124**
 
-[![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?style=flat-square&color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
+[![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![Discord](https://img.shields.io/discord/1447408228798304359?logo=discord&label=Discord&color=5865f2)](https://discord.gg/xq8sWQhuXG)
 
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
