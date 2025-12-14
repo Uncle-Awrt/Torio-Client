@@ -44,7 +44,7 @@ Instead, please join our Discord server for support:
 ### Movement Modules
 - **ToggleSprint** – Sprint without holding the sprint key.
 - **Speed** – Increases player movement speed.
-- **AntiKnockback** – Reduces or prevents knockback from attacks.
+- **AntiKnockback** – Reduces or prevents knockback from attacks.(Just on Servers)
 
 ![Movement Modules Screenshot](./images/movement_modules.png)
 
