@@ -28,7 +28,7 @@ Instead, please join our Discord server for support:
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
 
-![Visual Modules Screenshot](./images/visual_modules2.png)
+![Visual Modules Screenshot](./images/visual_modules3.png)
 
 ---
 
@@ -37,7 +37,7 @@ Instead, please join our Discord server for support:
 - **AutoClicker (Left & Right)** – Automates left and right clicks for combat and building.
 - **Hitbox** – Expands entity hitboxes for easier targeting.
 
-![Combat Modules Screenshot](./images/combat_modules2.png)
+![Combat Modules Screenshot](./images/combat_modules3.png)
 
 ---
 
@@ -46,14 +46,14 @@ Instead, please join our Discord server for support:
 - **Speed** – Increases player movement speed.
 - **AntiKnockback** – Reduces or prevents knockback from attacks.(Just on Servers)
 
-![Movement Modules Screenshot](./images/movement_modules2.png)
+![Movement Modules Screenshot](./images/movement_modules3.png)
 
 ---
 
 ### Misc Modules
 - **Stream Protect** – Hides sensitive or personal information while streaming.
 
-![Misc Modules Screenshot](./images/misc_modules2.png)
+![Misc Modules Screenshot](./images/misc_modules3.png)
 
 ---
 
@@ -67,7 +67,7 @@ Instead, please join our Discord server for support:
 Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.  
 (Some modules do not support keybinds.)
 
-![Keybind Settings Screenshot](./images/keybinds2.png)
+![Keybind Settings Screenshot](./images/keybinds3.png)
 
 ---
 
