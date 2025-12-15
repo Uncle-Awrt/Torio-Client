@@ -19,7 +19,6 @@ Instead, please join our Discord server for support:
 
 **https://discord.gg/xq8sWQhuXG**
 
-a
 ---
 
 ## Features
