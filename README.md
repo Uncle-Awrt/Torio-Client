@@ -27,6 +27,7 @@ Instead, please join our Discord server for support:
 - **FullBright** – Keeps the world fully illuminated at all times.
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
+- **No Hurt Cam** – Disables the hurt camera shake effect when taking damage.(1.21.130~ Only)
 
 ![Visual Modules Screenshot](./images/visual_modules4.png)
 
