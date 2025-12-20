@@ -28,7 +28,7 @@ Instead, please join our Discord server for support:
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
 
-![Visual Modules Screenshot](./images/visual_modules3.png)
+![Visual Modules Screenshot](./images/visual_modules4.png)
 
 ---
 
