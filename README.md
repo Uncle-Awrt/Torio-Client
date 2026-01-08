@@ -28,8 +28,10 @@ Instead, please join our Discord server for support:
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
 - **No Hurt Cam** – Disables the hurt camera shake effect when taking damage.(1.21.130~ Only)
+- **TrueSight** – Makes all invisible entities fully visible (e.g. invisible players, mobs, or effects).
+- **TimeChanger** – Allows you to freely change the in-game time client-side for better visibility or aesthetics.
 
-![Visual Modules Screenshot](./images/visual_modules4.png)
+![Visual Modules Screenshot](./images/visual_modules5.png)
 
 ---
 
