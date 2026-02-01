@@ -23,6 +23,11 @@ Instead, please join our Discord server for support:
 
 ## Features
 
+### Player Modules
+- **Fast Item** – Speeds up item use timers, allowing faster item usage.
+
+![Visual Modules Screenshot](./images/player_modules.png)
+
 ### Visual Modules
 - **FullBright** – Keeps the world fully illuminated at all times.
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
@@ -55,12 +60,9 @@ Instead, please join our Discord server for support:
 
 ### Misc Modules
 - **Stream Protect** – Hides sensitive or personal information while streaming.
+- **SystemTray** – Open the Torio-Client window from the system tray or exit the client.
 
-![Misc Modules Screenshot](./images/misc_modules3.png)
-
----
-
-### Player Modules (Coming Soon)
+![Misc Modules Screenshot](./images/misc_modules4.png)
 
 ---
 
