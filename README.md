@@ -1,6 +1,6 @@
 # Torio-Client
 A lightweight Ghost Client for **Minecraft Bedrock Edition**  
-**Stable Version: 1.21.120 ～ 1.21.132**
+**Stable Version: 1.21.120 ～ v26**
 
 [![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![Discord](https://img.shields.io/discord/1447408228798304359?logo=discord&label=Discord&color=5865f2)](https://discord.gg/xq8sWQhuXG)
@@ -32,7 +32,7 @@ Instead, please join our Discord server for support:
 - **FullBright** – Keeps the world fully illuminated at all times.
 - **Zoom** – Adjustable zoom for clearer long-distance vision.
 - **Coordinates** – Displays your current XYZ coordinates on screen.
-- **No Hurt Cam** – Disables the hurt camera shake effect when taking damage.(1.21.130~ Only)
+- **No Hurt Cam** – Disables the hurt camera shake effect when taking damage.(1.21.130~1.21.132 Only)
 - **TrueSight** – Makes all invisible entities fully visible (e.g. invisible players, mobs, or effects).
 - **TimeChanger** – Allows you to freely change the in-game time client-side for better visibility or aesthetics.
 
@@ -52,6 +52,7 @@ Instead, please join our Discord server for support:
 ### Movement Modules
 - **ToggleSprint** – Sprint without holding the sprint key.
 - **Speed** – Increases player movement speed.
+- **JumpReset(Test Module)** – Automates jump reset timing during combat. (Currently in testing – may be unstable or not work as intended.)
 - **AntiKnockback** – Reduces or prevents knockback from attacks.
 
 ![Movement Modules Screenshot](./images/movement_modules3.png)
