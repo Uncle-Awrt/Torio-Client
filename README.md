@@ -52,7 +52,7 @@ Instead, please join our Discord server for support:
 ### Movement Modules
 - **ToggleSprint** – Sprint without holding the sprint key.
 - **Speed** – Increases player movement speed.
-- **JumpReset(Test Module)** – Automates jump reset timing during combat. (Currently in testing – may be unstable or not work as intended.)
+- **JumpReset(Test Module)** – Automates jump reset timing during combat. (Supports 1.21.132 and v26 - Currently in testing – may be unstable or not work as intended.)
 - **AntiKnockback** – Reduces or prevents knockback from attacks.
 
 ![Movement Modules Screenshot](./images/movement_modules3.png)
