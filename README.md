@@ -26,7 +26,7 @@ Instead, please join our Discord server for support:
 ### Player Modules
 - **Fast Item** – Speeds up item use timers, allowing faster item usage.
 
-![Visual Modules Screenshot](./images/player_modules.png)
+![Visual Modules Screenshot](./images/player_modules2.png)
 
 ### Visual Modules
 - **FullBright** – Keeps the world fully illuminated at all times.
@@ -36,7 +36,7 @@ Instead, please join our Discord server for support:
 - **TrueSight** – Makes all invisible entities fully visible (e.g. invisible players, mobs, or effects).
 - **TimeChanger** – Allows you to freely change the in-game time client-side for better visibility or aesthetics.
 
-![Visual Modules Screenshot](./images/visual_modules5.png)
+![Visual Modules Screenshot](./images/visual_modules6.png)
 
 ---
 
@@ -45,7 +45,7 @@ Instead, please join our Discord server for support:
 - **AutoClicker (Left & Right)** – Automates left and right clicks for combat and building.
 - **Hitbox** – Expands entity hitboxes for easier targeting.
 
-![Combat Modules Screenshot](./images/combat_modules3.png)
+![Combat Modules Screenshot](./images/combat_modules4.png)
 
 ---
 
@@ -55,7 +55,7 @@ Instead, please join our Discord server for support:
 - **JumpReset(Test Module)** – Automates jump reset timing during combat. (Supports 1.21.132 and v26 - Currently in testing – may be unstable or not work as intended.)
 - **AntiKnockback** – Reduces or prevents knockback from attacks.
 
-![Movement Modules Screenshot](./images/movement_modules3.png)
+![Movement Modules Screenshot](./images/movement_modules4.png)
 
 ---
 
@@ -63,7 +63,7 @@ Instead, please join our Discord server for support:
 - **Stream Protect** – Hides sensitive or personal information while streaming.
 - **SystemTray** – Open the Torio-Client window from the system tray or exit the client.
 
-![Misc Modules Screenshot](./images/misc_modules4.png)
+![Misc Modules Screenshot](./images/misc_modules5.png)
 
 ---
 
@@ -73,7 +73,7 @@ Instead, please join our Discord server for support:
 Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.  
 (Some modules do not support keybinds.)
 
-![Keybind Settings Screenshot](./images/keybinds3.png)
+![Keybind Settings Screenshot](./images/keybinds4.png)
 
 ---
 
