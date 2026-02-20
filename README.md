@@ -7,7 +7,7 @@ A lightweight Ghost Client for **Minecraft Bedrock Edition**
 [![downloads][16]][17]
 
 [16]: https://custom-icon-badges.demolab.com/badge/-Download-F25278?logo=download&logoColor=white
-[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v1.0.6/TorioClient.exe
+[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v1.0.8/TorioClient.exe
 
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
@@ -26,7 +26,7 @@ Instead, please join our Discord server for support:
 ### Player Modules
 - **Fast Item** – Speeds up item use timers, allowing faster item usage.
 
-![Visual Modules Screenshot](./images/player_modules2.png)
+![Visual Modules Screenshot](./images/player_modules3.png)
 
 ### Visual Modules
 - **FullBright** – Keeps the world fully illuminated at all times.
@@ -36,7 +36,7 @@ Instead, please join our Discord server for support:
 - **TrueSight** – Makes all invisible entities fully visible (e.g. invisible players, mobs, or effects).
 - **TimeChanger** – Allows you to freely change the in-game time client-side for better visibility or aesthetics.
 
-![Visual Modules Screenshot](./images/visual_modules6.png)
+![Visual Modules Screenshot](./images/visual_modules7.png)
 
 ---
 
@@ -45,7 +45,7 @@ Instead, please join our Discord server for support:
 - **AutoClicker (Left & Right)** – Automates left and right clicks for combat and building.
 - **Hitbox** – Expands entity hitboxes for easier targeting.
 
-![Combat Modules Screenshot](./images/combat_modules4.png)
+![Combat Modules Screenshot](./images/combat_modules5.png)
 
 ---
 
@@ -55,7 +55,7 @@ Instead, please join our Discord server for support:
 - **JumpReset(Test Module)** – Automates jump reset timing during combat. (Supports 1.21.132 and v26 - Currently in testing – may be unstable or not work as intended.)
 - **AntiKnockback** – Reduces or prevents knockback from attacks.
 
-![Movement Modules Screenshot](./images/movement_modules4.png)
+![Movement Modules Screenshot](./images/movement_modules5.png)
 
 ---
 
@@ -63,7 +63,7 @@ Instead, please join our Discord server for support:
 - **Stream Protect** – Hides sensitive or personal information while streaming.
 - **SystemTray** – Open the Torio-Client window from the system tray or exit the client.
 
-![Misc Modules Screenshot](./images/misc_modules5.png)
+![Misc Modules Screenshot](./images/misc_modules6.png)
 
 ---
 
@@ -73,7 +73,7 @@ Instead, please join our Discord server for support:
 Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.  
 (Some modules do not support keybinds.)
 
-![Keybind Settings Screenshot](./images/keybinds4.png)
+![Keybind Settings Screenshot](./images/keybinds5.png)
 
 ---
 
