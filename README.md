@@ -1,6 +1,6 @@
 # Torio-Client
 A lightweight Ghost Client for **Minecraft Bedrock Edition**  
-**Stable Version: 1.21.120 ～ v26.1**
+**Stable Version: 1.21.130 ～ v26.3**
 
 [![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![Discord](https://img.shields.io/discord/1447408228798304359?logo=discord&label=Discord&color=5865f2)](https://discord.gg/xq8sWQhuXG)
@@ -46,6 +46,8 @@ Instead, please join our Discord server for support:
 - **Reach** – Extends melee attack distance.
 - **AutoClicker (Left & Right)** – Automates left and right clicks for combat and building.
 - **Hitbox** – Expands entity hitboxes for easier targeting.
+- **Micro Aim** – Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
+- **Trigger Bot** – Automatically attacks when your crosshair is over a target. Supports two switchable modes: First Hit and Auto Click.
 
 ![Combat Modules Screenshot](./images/combat_modules5.png)
 
