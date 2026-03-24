@@ -48,6 +48,7 @@ Instead, please join our Discord server for support:
 - **Hitbox** – Expands entity hitboxes for easier targeting.
 - **Micro Aim** – Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
 - **Trigger Bot** – Automatically attacks when your crosshair is over a target. Supports two switchable modes: First Hit and Auto Click.
+- **Aim Assist** – Helps guide your aim toward nearby targets by subtly adjusting your crosshair. Improves tracking and target focus, but may feel inconsistent in its current state (will be refined in the next update).
 
 ![Combat Modules Screenshot](./images/combat_modules5.png)
 
