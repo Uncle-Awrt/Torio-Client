@@ -104,7 +104,7 @@ Guides your aim toward nearby targets. Local player is excluded to prevent self-
 
 ### Movement Modules
 
-![Movement Modules Screenshot](./images/wpf/movement_modules.png)
+![Movement Modules Screenshot](./images/wpf/movement_modules2.png)
 
 #### ToggleSprint
 Sprint without holding the sprint key.
@@ -125,6 +125,11 @@ Allows you to modify the game's tick speed.
 Automates jump reset timing during combat. (Currently in testing – may be unstable.)
 
 ![JumpReset Card](./images/cards/jump_reset.png)
+
+#### FakeLag
+Hold the configured keybind to freeze ticks and simulate lag.
+
+![FakeLag Card](./images/cards/fakelag.png)
 
 #### Velocity
 Reduces or prevents knockback from attacks.
