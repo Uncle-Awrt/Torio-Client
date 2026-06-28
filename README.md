@@ -7,7 +7,7 @@ A lightweight Ghost Client for **Minecraft Bedrock Edition**
 [![downloads][16]][17]
 
 [16]: https://custom-icon-badges.demolab.com/badge/-Download-F25278?logo=download&logoColor=white
-[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v1.2.0-beta.2/TorioClient.exe
+[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v2.0.0-beta.1/TorioClient.exe
 
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
@@ -32,7 +32,7 @@ Instead, please join our Discord server for support:
 
 ### Visual Modules
 
-![Visual Modules Screenshot](./images/wpf/visual_modules.png)
+![Visual Modules Screenshot](./images/wpf/visual_modules2.png)
 
 #### FullBright
 Keeps the world fully illuminated at all times.
@@ -68,14 +68,14 @@ Disables the hurt camera shake effect when taking damage.
 
 ### Combat Modules
 
-![Combat Modules Screenshot](./images/wpf/combat_modules.png)
+![Combat Modules Screenshot](./images/wpf/combat_modules2.png)
 
-#### Reach
+#### Reach (Randomizer Support)
 Extends melee attack distance.
 
 ![Reach Card](./images/cards/reach.png)
 
-#### AutoClicker (Left & Right)
+#### AutoClicker (Left & Right) (Randomizer Support)
 Automates left and right clicks. Menu Check and Block Break Check can now be toggled individually via checkboxes.
 
 ![AutoClicker Card](./images/cards/auto_clicker.png)
@@ -85,12 +85,12 @@ Expands entity hitboxes for easier targeting.
 
 ![Hitbox Card](./images/cards/hitbox.png)
 
-#### Trigger Bot
+#### Trigger Bot (CPS Randomizer Support)
 Automatically attacks when your crosshair is over a target. Supports **First Hit**, **Auto Click**, and the new **HitSelect** mode (activates when you are hit by an opponent while already aiming at them).
 
 ![Trigger Bot Card](./images/cards/trigger_bot.png)
 
-#### Micro Aim
+#### Micro Aim (Randomizer Support)
 Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
 
 ![Micro Aim Card](./images/cards/micro_aim.png)
@@ -104,24 +104,29 @@ Guides your aim toward nearby targets. Local player is excluded to prevent self-
 
 ### Movement Modules
 
-![Movement Modules Screenshot](./images/wpf/movement_modules2.png)
+![Movement Modules Screenshot](./images/wpf/movement_modules3.png)
 
 #### ToggleSprint
 Sprint without holding the sprint key.
 
 ![ToggleSprint Card](./images/cards/toggle_sprint.png)
 
-#### Speed
+#### Speed (Randomizer Support)
 Increases player movement speed.
 
 ![Speed Card](./images/cards/speed.png)
 
-#### Timer
+#### Air Acceleration (Randomizer Support)
+Allows you to modify acceleration while jumping.
+
+![Air Acceleration Card](./images/cards/air_acceleration.png)
+
+#### Timer (Randomizer Support)
 Allows you to modify the game's tick speed.
 
 ![Timer Card](./images/cards/timer.png)
 
-#### JumpReset
+#### JumpReset (Randomizer Support)
 Automates jump reset timing during combat. (Currently in testing – may be unstable.)
 
 ![JumpReset Card](./images/cards/jump_reset.png)
@@ -140,7 +145,7 @@ Reduces or prevents knockback from attacks.
 
 ### Utility
 
-![Utility Screenshot](./images/wpf/utility_modules.png)
+![Utility Screenshot](./images/wpf/utility_modules2.png)
 
 #### GUI Theme
 Customize the look of Torio-Client with full RGB color balance control. Includes a Night Mode and the ability to reset back to the default colors at any time.
@@ -161,6 +166,17 @@ Hides sensitive or personal information while streaming.
 Minimize Torio-Client to the system tray and reopen it at any time.
 
 ![SystemTray Card](./images/cards/system_tray.png)
+
+#### Discord Presence (Experimental – Contains Known Bugs)
+Displays your current menu, server, Minecraft version, and client status on Discord.
+
+![Discord Presence Card](./images/cards/discord_presence.png)
+
+<p align="center">
+  <img src="./images/cards/discord_presence_menu.png" width="32%">
+  <img src="./images/cards/discord_presence_ingame.png" width="32%">
+  <img src="./images/cards/discord_presence_server.png" width="32%">
+</p>
 
 #### Duck Overlay
 Displays a cute duck GIF on your screen to help you stay calm during gameplay.
