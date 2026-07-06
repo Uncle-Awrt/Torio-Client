@@ -15,7 +15,7 @@ All features are fully toggleable and optimized for smooth performance.
 > ⚠️ As of v1.2.0-beta.1, Torio-Client has been migrated from **Python 3.11** to **WPF (C#)** for significantly improved performance and launch speed.
 
 ## 🔗 Source Code (C# / WPF)
-https://github.com/Uncle-Awrt/Torio-Client-wpf
+https://github.com/kukentyan/torio-master-wpf
 
 > Note: The source code is not yet available as a stable version has not been released.
 
