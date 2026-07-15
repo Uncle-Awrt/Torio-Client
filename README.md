@@ -1,18 +1,18 @@
 # Torio-Client
 A lightweight Ghost Client for **Minecraft Bedrock Edition**  
-**Stable Version: 1.21.130 ～ v26.13**
+**Supported Versions: v26.0 – v26.21**
 
 [![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![Discord](https://img.shields.io/discord/1447408228798304359?logo=discord&label=Discord&color=5865f2)](https://discord.gg/xq8sWQhuXG)
 [![downloads][16]][17]
 
 [16]: https://custom-icon-badges.demolab.com/badge/-Download-F25278?logo=download&logoColor=white
-[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v2.0.0-beta.2/TorioClient.exe
+[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v2.0.0-beta.3/TorioClient.exe
 
 Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
 
-> ⚠️ As of v1.2.0-beta.1, Torio-Client has been migrated from **Python 3.11** to **WPF (C#)** for significantly improved performance and launch speed.
+> ⚠️ As of v1.2.0-beta.1, Torio-Client has been migrated from **Python 3.11** to **WPF (C#)** for significantly improved performance and launch speed. Development will now focus exclusively on v26+ updates.
 
 ## 🔗 Source Code (C# / WPF)
 https://github.com/kukentyan/torio-master-wpf
@@ -59,11 +59,6 @@ Freely change the in-game time client-side for better visibility or aesthetics.
 
 ![TimeChanger Card](./images/cards/time_changer.png)
 
-#### No Hurt Cam (1.21.130 ~ 1.21.132 only)
-Disables the hurt camera shake effect when taking damage.
-
-![No Hurt Cam Card](./images/cards/no_hurt_cam.png)
-
 ---
 
 ### Combat Modules
@@ -86,19 +81,29 @@ Expands entity hitboxes for easier targeting.
 ![Hitbox Card](./images/cards/hitbox.png)
 
 #### Trigger Bot (CPS Randomizer Support)
-Automatically attacks when your crosshair is over a target. Supports **First Hit**, **Auto Click**, and the new **HitSelect** mode (activates when you are hit by an opponent while already aiming at them).
+Automatically attacks when your crosshair is over a target. Supports **First Hit**, **Auto Click**, and the **HitSelect** mode (activates when you are hit by an opponent while already aiming at them).
 
 ![Trigger Bot Card](./images/cards/trigger_bot.png)
 
-#### Micro Aim (Randomizer Support)
-Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
+#### Sticky Aim (Randomizer Support)
+*(Previously Micro Aim)* Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
 
-![Micro Aim Card](./images/cards/micro_aim.png)
+![Sticky Aim Card](./images/cards/sticky_aim.png)
 
 #### Aim Assist
-Guides your aim toward nearby targets. Local player is excluded to prevent self-targeting. Aim movement is smooth and no longer jittery.
+Guides your aim toward nearby **Players**. Non-player entities are completely excluded to prevent unwanted tracking. Yaw and Pitch calculations use dynamic values, ensuring smooth, highly accurate, non-jittery movements.
 
 ![Aim Assist Card](./images/cards/aim_assist.png)
+
+#### BackTrack
+Delays incoming player position packets, allowing you to hit enemies from where they were moments ago.
+
+![BackTrack Card](./images/cards/backtrack.png)
+
+#### HoldBackTrack
+A variant of BackTrack that strictly holds the enemy's position data for more aggressive positioning advantages.
+
+![HoldBackTrack Card](./images/cards/hold_backtrack.png)
 
 ---
 
@@ -107,12 +112,14 @@ Guides your aim toward nearby targets. Local player is excluded to prevent self-
 ![Movement Modules Screenshot](./images/wpf/movement_modules3.png)
 
 #### ToggleSprint
-Sprint without holding the sprint key.
+Sprint without holding the sprint key.  
+*(⚠️ Note: Toggle Sprint currently has a known bug.)*
 
 ![ToggleSprint Card](./images/cards/toggle_sprint.png)
 
 #### Speed (Randomizer Support)
-Increases player movement speed.
+Increases player movement speed.  
+*(⚠️ Note: This module will no longer be updated.)*
 
 ![Speed Card](./images/cards/speed.png)
 
@@ -127,14 +134,19 @@ Allows you to modify the game's tick speed.
 ![Timer Card](./images/cards/timer.png)
 
 #### JumpReset (Randomizer Support)
-Automates jump reset timing during combat. (Currently in testing – may be unstable.)
+Automates jump reset timing during combat.
 
 ![JumpReset Card](./images/cards/jump_reset.png)
 
-#### FakeLag
-Hold the configured keybind to freeze ticks and simulate lag.
+#### Lag Switch
+*(Previously FakeLag)* Hold the configured keybind to freeze ticks and simulate lag.
 
-![FakeLag Card](./images/cards/fakelag.png)
+![Lag Switch Card](./images/cards/lag_switch.png)
+
+#### Reverse BackTrack (FakeLag)
+Delays your own movement packets sent to the server, making your character appear to stutter or lag to other players.
+
+![Reverse BackTrack Card](./images/cards/reverse_backtrack.png)
 
 #### Velocity
 Reduces or prevents knockback from attacks.
@@ -147,10 +159,15 @@ Reduces or prevents knockback from attacks.
 
 ![Utility Screenshot](./images/wpf/utility_modules2.png)
 
-#### GUI Theme
-Customize the look of Torio-Client with full RGB color balance control. Includes a Night Mode and the ability to reset back to the default colors at any time.
+#### GUI Settings
+Customize the look of Torio-Client with full RGB color balance control. You can seamlessly switch between rendering the GUI as an **external window** or as an **In-game Overlay GUI**.
 
-![GUI Theme Card](./images/cards/gui_theme.png)
+![GUI Settings Card](./images/cards/gui_settings.png)
+
+#### Toggle Sounds
+Plays a sound effect when toggling modules on or off. Can be easily enabled or disabled.
+
+![Toggle Sounds Card](./images/cards/toggle_sounds.png)
 
 #### Fast Item
 Speeds up item use timers, allowing faster item usage.
@@ -204,7 +221,7 @@ Automated bow macro.
 ## Customization
 
 ### ⌨️ Keybind Customization
-Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle.
+Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle. *(The GUI visibility toggle keybind can now be found inside GUI Settings).*
 
 ### 💾 Config System
 Save, load, and manage your personalized configurations. Useful for switching between setups quickly or backing up your settings.
