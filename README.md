@@ -1,15 +1,15 @@
 # Torio-Client
-A lightweight Ghost Client for **Minecraft Bedrock Edition**  
-**Supported Versions: v26.0 – v26.21**
+A lightweight External Ghost Client for **Minecraft Bedrock Edition**  
+**Supported Versions: v26.0 – v26.44**
 
 [![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![Discord](https://img.shields.io/discord/1447408228798304359?logo=discord&label=Discord&color=5865f2)](https://discord.gg/xq8sWQhuXG)
 [![downloads][16]][17]
 
 [16]: https://custom-icon-badges.demolab.com/badge/-Download-F25278?logo=download&logoColor=white
-[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v2.0.0-beta.3/TorioClient.exe
+[17]: https://github.com/Uncle-Awrt/Torio-Client/releases/download/v2.0.0-beta.4/TorioClient.exe
 
-Torio-Client is designed to enhance gameplay with visual tools, movement utilities, and customizable modules.  
+Torio-Client is designed to enhance gameplay with visual tools, movement utilities, combat features, and customizable modules.  
 All features are fully toggleable and optimized for smooth performance.
 
 > ⚠️ As of v1.2.0-beta.1, Torio-Client has been migrated from **Python 3.11** to **WPF (C#)** for significantly improved performance and launch speed. Development will now focus exclusively on v26+ updates.
@@ -28,187 +28,226 @@ Instead, please join our Discord server for support:
 
 ---
 
-## Features
+## Features (C# / WPF Version)
+
+> **Total Modules: 38** (Visual: 10 | Combat: 10 | Movement: 7 | Utility & Settings: 11)
 
 ### Visual Modules
 
-![Visual Modules Screenshot](./images/wpf/visual_modules2.png)
+![Visual Modules Screenshot](./images/wpf/visual_modulesv2.png)
 
-#### FullBright
+#### Fullbright
 Keeps the world fully illuminated at all times.
 
-![FullBright Card](./images/cards/fullbright.png)
+![FullBright Card](./images/cards/v2/fullbright.png)
 
 #### Zoom
 Adjustable zoom for clearer long-distance vision.
 
-![Zoom Card](./images/cards/zoom.png)
+![Zoom Card](./images/cards/v2/zoom.png)
 
 #### Coordinates
 Displays your current XYZ coordinates on screen.
 
-![Coordinates Card](./images/cards/coordinates.png)
+![Coordinates Card](./images/cards/v2/coordinates.png)
+
+#### ESP
+Draws a 2D bounding box outline around nearby entities, making them visible through walls.
+
+![ESP Card](./images/cards/v2/esp.png)
 
 #### TrueSight
 Makes all invisible entities fully visible (e.g. invisible players, mobs, or effects).
 
-![TrueSight Card](./images/cards/truesight.png)
+![TrueSight Card](./images/cards/v2/truesight.png)
 
-#### TimeChanger
+#### Time Changer
 Freely change the in-game time client-side for better visibility or aesthetics.
 
-![TimeChanger Card](./images/cards/time_changer.png)
+![Time Changer Card](./images/cards/v2/timechanger.png)
+
+#### Duck Overlay
+Displays a cute animated duck on your screen to help you stay calm during gameplay.
+
+![Duck Overlay Card](./images/cards/v2/duckoverlay.png)
+
+#### Notifications
+Displays in-game notification toasts for client events and toggles.
+
+![Notifications Card](./images/cards/v2/notifications.png)
+
+#### Custom Watermark
+Displays a customizable text watermark on screen with configurable font, size, and text.
+
+![Custom Watermark Card](./images/cards/v2/customwatermark.png)
+
+#### Array List
+Displays a list of currently active modules on screen as an in-game overlay.
+
+![Array List Card](./images/cards/v2/arraylist.png)
 
 ---
 
 ### Combat Modules
 
-![Combat Modules Screenshot](./images/wpf/combat_modules2.png)
+![Combat Modules Screenshot](./images/wpf/combat_modulesv2.png)
 
 #### Reach (Randomizer Support)
 Extends melee attack distance.
 
-![Reach Card](./images/cards/reach.png)
+![Reach Card](./images/cards/v2/reach.png)
 
 #### AutoClicker (Left & Right) (Randomizer Support)
-Automates left and right clicks. Menu Check and Block Break Check can now be toggled individually via checkboxes.
+Automates left and right clicks. Menu Check and Block Break Check can be toggled individually via checkboxes.
 
-![AutoClicker Card](./images/cards/auto_clicker.png)
+![AutoClicker Card](./images/cards/v2/autoclicker.png)
+
+#### Double Clicker
+Simulates a double click on each real mouse click, effectively doubling your CPS.
+
+![Double Clicker Card](./images/cards/v2/doubleclicker.png)
 
 #### Hitbox
 Expands entity hitboxes for easier targeting.
 
-![Hitbox Card](./images/cards/hitbox.png)
+![Hitbox Card](./images/cards/v2/hitbox.png)
 
-#### Trigger Bot (CPS Randomizer Support)
+#### TriggerBot (CPS Randomizer Support)
 Automatically attacks when your crosshair is over a target. Supports **First Hit**, **Auto Click**, and the **HitSelect** mode (activates when you are hit by an opponent while already aiming at them).
 
-![Trigger Bot Card](./images/cards/trigger_bot.png)
+![TriggerBot Card](./images/cards/v2/triggerbot.png)
 
 #### Sticky Aim (Randomizer Support)
 *(Previously Micro Aim)* Automatically fine-tunes your sensitivity when manually aiming at an enemy, helping your aim lock on smoothly.
 
-![Sticky Aim Card](./images/cards/sticky_aim.png)
+![Sticky Aim Card](./images/cards/v2/sticky_aim.png)
 
 #### Aim Assist
 Guides your aim toward nearby **Players**. Non-player entities are completely excluded to prevent unwanted tracking. Yaw and Pitch calculations use dynamic values, ensuring smooth, highly accurate, non-jittery movements.
 
-![Aim Assist Card](./images/cards/aim_assist.png)
+![Aim Assist Card](./images/cards/v2/aimassist.png)
 
 #### BackTrack
-Delays incoming player position packets, allowing you to hit enemies from where they were moments ago.
+Delays incoming player position packets using a smooth continuous delay queue, allowing you to hit enemies from where they were moments ago. Supports **Flow** mode (toggle) and **Hold** mode (hold keybind to activate).
 
-![BackTrack Card](./images/cards/backtrack.png)
+![BackTrack Card](./images/cards/v2/backtrack.png)
 
-#### HoldBackTrack
-A variant of BackTrack that strictly holds the enemy's position data for more aggressive positioning advantages.
+#### Auto Throw *(Macro)*
+Automated pearl, snowball, and item throw macro.
 
-![HoldBackTrack Card](./images/cards/hold_backtrack.png)
+![Auto Throw Card](./images/cards/v2/autothrow.png)
+
+#### Auto Bow *(Macro)*
+Automated bow charge macro.
+
+![Auto Bow Card](./images/cards/v2/autobow.png)
 
 ---
 
 ### Movement Modules
 
-![Movement Modules Screenshot](./images/wpf/movement_modules3.png)
+![Movement Modules Screenshot](./images/wpf/movement_modulesv2.png)
 
-#### ToggleSprint
-Sprint without holding the sprint key.  
-*(⚠️ Note: Toggle Sprint currently has a known bug.)*
+#### Toggle Sprint
+Sprint without holding the sprint key.
 
-![ToggleSprint Card](./images/cards/toggle_sprint.png)
-
-#### Speed (Randomizer Support)
-Increases player movement speed.  
-*(⚠️ Note: This module will no longer be updated.)*
-
-![Speed Card](./images/cards/speed.png)
+![Toggle Sprint Card](./images/cards/v2/toggle_sprint.png)
 
 #### Air Acceleration (Randomizer Support)
 Allows you to modify acceleration while jumping.
 
-![Air Acceleration Card](./images/cards/air_acceleration.png)
+![Air Acceleration Card](./images/cards/v2/air_acceleration.png)
 
 #### Timer (Randomizer Support)
 Allows you to modify the game's tick speed.
 
-![Timer Card](./images/cards/timer.png)
+![Timer Card](./images/cards/v2/timer.png)
 
-#### JumpReset (Randomizer Support)
+#### Auto JumpReset (Randomizer Support)
 Automates jump reset timing during combat.
 
-![JumpReset Card](./images/cards/jump_reset.png)
+![Auto JumpReset Card](./images/cards/v2/jump_reset.png)
 
 #### Lag Switch
-*(Previously FakeLag)* Hold the configured keybind to freeze ticks and simulate lag.
+Hold the configured keybind to freeze outgoing packets and simulate lag.
 
-![Lag Switch Card](./images/cards/lag_switch.png)
-
-#### Reverse BackTrack (FakeLag)
-Delays your own movement packets sent to the server, making your character appear to stutter or lag to other players.
-
-![Reverse BackTrack Card](./images/cards/reverse_backtrack.png)
+![Lag Switch Card](./images/cards/v2/lagswitch.png)
 
 #### Velocity
-Reduces or prevents knockback from attacks.
+Reduces or prevents knockback from attacks with customizable Horizontal (X/Z) and Vertical (Y) multipliers.
 
-![Velocity Card](./images/cards/velocity.png)
+![Velocity Card](./images/cards/v2/velocity.png)
+
+#### NoSlowdown
+Disables movement slowdown effects when consuming items, using weapons, or traversing slowing terrain.
+
+![NoSlowdown Card](./images/cards/v2/noslowdown.png)
 
 ---
 
-### Utility
+### Utility & Settings
 
-![Utility Screenshot](./images/wpf/utility_modules2.png)
+![Utility Screenshot](./images/wpf/utility_modulesv2.png)
 
 #### GUI Settings
-Customize the look of Torio-Client with full RGB color balance control. You can seamlessly switch between rendering the GUI as an **external window** or as an **In-game Overlay GUI**.
+Customize the look of Torio-Client with full RGB accent color control, Light Mode / Dark Mode toggles, and reset capabilities.
 
-![GUI Settings Card](./images/cards/gui_settings.png)
+![GUI Settings Card](./images/cards/v2/gui_settings.png)
 
-#### Toggle Sounds
-Plays a sound effect when toggling modules on or off. Can be easily enabled or disabled.
+#### Ingame Overlay & External Window Mode
+Seamlessly switch between rendering the GUI as an in-game overlay directly over Minecraft, or as a standalone **External Window** (ideal for dual monitors or side-by-side management).
 
-![Toggle Sounds Card](./images/cards/toggle_sounds.png)
+![Ingame Overlay Card](./images/cards/v2/ingame_overlay.png)
+
+> **External Window Support:**  
+> You can still use Torio-Client in classic External Window mode without overlaying the game screen.
+
+![External Window](./images/wpf/externalwindow.png)
+
+#### FakeLag
+*(Previously Reverse BackTrack)* Delays your own movement packets sent to the server, making your character appear to stutter or lag to other players. Supports **Flow** mode (toggle) and **Hold** mode (hold keybind to activate) with optional **Hardstop on hit**.
+
+![FakeLag Card](./images/cards/v2/fakelag.png)
+
+#### Blink
+Temporarily queues outgoing network packets while holding a keybind (Reverse Hold), instantly teleporting your position to the server upon release.
+
+![Blink Card](./images/cards/v2/blink.png)
 
 #### Fast Item
 Speeds up item use timers, allowing faster item usage.
 
-![Fast Item Card](./images/cards/fast_item.png)
+![Fast Item Card](./images/cards/v2/fast_item.png)
 
-#### Stream Protect
+#### Streamprotect
 Hides sensitive or personal information while streaming.
 
-![Stream Protect Card](./images/cards/stream_protect.png)
+![Streamprotect Card](./images/cards/v2/stream_protect.png)
 
-#### SystemTray
+#### System Tray
 Minimize Torio-Client to the system tray and reopen it at any time.
 
-![SystemTray Card](./images/cards/system_tray.png)
+![System Tray Card](./images/cards/v2/system_tray.png)
 
-#### Discord Presence (Experimental – Contains Known Bugs)
+#### Discord Presence
 Displays your current menu, server, Minecraft version, and client status on Discord.
 
-![Discord Presence Card](./images/cards/discord_presence.png)
+![Discord Presence Card](./images/cards/v2/discord_presence.png)
 
-<p align="center">
-  <img src="./images/cards/discord_presence_menu.png" width="32%">
-  <img src="./images/cards/discord_presence_ingame.png" width="32%">
-  <img src="./images/cards/discord_presence_server.png" width="32%">
-</p>
+#### Toggle Sounds
+Plays a sound effect when toggling modules on or off. Can be easily enabled or disabled.
 
-#### Duck Overlay
-Displays a cute duck GIF on your screen to help you stay calm during gameplay.
+![Toggle Sounds Card](./images/cards/v2/toggle_sounds.png)
 
-![Duck Overlay Card](./images/cards/duck_overlay.png)
+#### Device ID Spoofer
+Spoofs your device ID to help protect your identity. Can be configured to spoof on join, on startup, or both.
 
-#### Auto Pearl *(Macro)*
-Automated pearl throwing macro.
+![Device ID Spoofer Card](./images/cards/v2/device_id_spoofer.png)
 
-![Auto Pearl Card](./images/cards/auto_pearl.png)
+#### Auto 360 *(Macro)*
+Automated 360° spin macro. Supports Right, Left, and Alternate spin directions with configurable sensitivity and keybind.
 
-#### AutoBow *(Macro)*
-Automated bow macro.
-
-![AutoBow Card](./images/cards/auto_bow.png)
+![Auto 360 Card](./images/cards/v2/auto360.png)
 
 ---
 
@@ -220,11 +259,30 @@ Automated bow macro.
 
 ## Customization
 
-### ⌨️ Keybind Customization
-Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle. *(The GUI visibility toggle keybind can now be found inside GUI Settings).*
+### Keybind Customization
+Most modules support customizable keybinds, allowing you to assign controls that fit your playstyle. *(The GUI visibility toggle keybind can be found inside GUI Settings).*
 
-### 💾 Config System
+### Config System
 Save, load, and manage your personalized configurations. Useful for switching between setups quickly or backing up your settings.
+
+---
+
+## Connect, Loading Screen & Built-in Version Switcher
+
+### Connect Screen
+When launching Torio-Client, the connection screen automatically detects your running Minecraft Bedrock process and checks version compatibility in real time.
+
+![Connect Screen](./images/wpf/connectscreen.png)
+
+### Loading Screen
+Once connected, the high-speed loading screen scans game memory and hooks into Minecraft Bedrock smoothly in seconds, ensuring seamless startup without freezing or delays.
+
+![Loading Screen](./images/wpf/loadingscreen.png)
+
+### Built-in Version Switcher
+Torio-Client includes a built-in **Version Switcher**, allowing you to switch and install supported Minecraft Bedrock versions directly within the client without needing any third-party launchers.
+
+![Version Switcher](./images/wpf/versionswitcher.png)
 
 ---
 
