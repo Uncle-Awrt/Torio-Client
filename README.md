@@ -1,7 +1,7 @@
 # Torio Client(TorioGhost External)
 
 A lightweight External Ghost Client for **Minecraft Bedrock Edition**  
-**Supported Versions: v26.30 – v26.52**
+**Supported Versions: v26.30 – v26.60**
 
 [![GitHub Downloads (total)](https://img.shields.io/github/downloads/Uncle-Awrt/Torio-Client/total?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/releases/latest)
 [![GitHub Stars](https://img.shields.io/github/stars/Uncle-Awrt/Torio-Client?color=pink)](https://github.com/Uncle-Awrt/Torio-Client/stargazers)
